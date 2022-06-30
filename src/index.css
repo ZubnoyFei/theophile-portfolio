@@ -154,10 +154,62 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    gap: 80px;
 }
 
 .skills-wrapper ul > li:first-child {
     margin-bottom: 65px;
+}
+
+.progress-bar-ux {
+    width: 450px;
+    display: flex;
+}
+
+.progress-bar-ux > .red-bar {
+    width: 84%;
+    height: 25px;
+    background-color: #C66C49;
+}
+
+.progress-bar-ux > .yellow-bar {
+    width: 16%;
+    height: 25px;
+    background-color: #F5D6AB;
+}
+.progress-bar-ui {
+    width: 450px;
+    display: flex;
+}
+
+.progress-bar-ui > .red-bar {
+    width: 77%;
+    height: 25px;
+    background-color: #C66C49;
+}
+
+.progress-bar-ui > .yellow-bar {
+    width: 23%;
+    height: 25px;
+    background-color: #F5D6AB;
+}
+
+
+.progress-bar-fe {
+    width: 450px;
+    display: flex;
+}
+
+.progress-bar-fe > .red-bar {
+    width: 63%;
+    height: 25px;
+    background-color: #C66C49;
+}
+
+.progress-bar-fe > .yellow-bar {
+    width: 37%;
+    height: 25px;
+    background-color: #F5D6AB;
 }
 
 .portfolio {
@@ -165,13 +217,42 @@ h1 {
     padding-bottom: 140px;
 }
 
-.portfolio > div {
+.image-flex {
     display: flex;
-    justify-content: space-between;
+    height: 525px;
+gap: 20px;
+}
+
+.portfolio-text-wrapper {
+    display: flex;
     gap: 125px;
 }
 
+.portfolio-image-wrapper-1 {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.portfolio-image-wrapper-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-image-wrapper-2 {
+    width: 233px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-image-wrapper-2 img {
+    width: 100%;
+    height: 100%;
+}
+
 .portfolio h2 {
+    display: flex;
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
@@ -190,6 +271,13 @@ h1 {
     font-size: 18px;
     line-height: 1.6;
     font-weight: 400;
+    margin-bottom: 230px;
+}
+
+.chevron-wrapper {
+    position: absolute;
+    bottom: 0;
+    top: 230px;
 }
 
 .image-portfolio-wrapper {
