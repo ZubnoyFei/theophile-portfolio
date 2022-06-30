@@ -60,7 +60,7 @@ header > a {
     line-height: 1.2;
 }
 
-header > nav >ul {
+header > nav > ul {
     display: flex;
     justify-content: space-between;
     gap: 60px;
@@ -69,7 +69,7 @@ header > nav >ul {
     line-height: 1.2;
 }
 
-.hero-text-wrapper  {
+.hero-text-wrapper {
     padding-top: 60px;
     padding-bottom: 240px;
 }
@@ -111,36 +111,117 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
+    margin-bottom: 115px;
 }
 
 .skills {
-    padding-top: 95px;
+    padding-top: 60px;
     padding-bottom: 135px;
     background-color: #FFFAF2;
 }
 
 .skills h2 {
-    margin-top: 95px;
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
 }
 
 .skills-wrapper img {
-    margin-top:100px;
+    margin-top: 100px;
     width: 350px;
 }
 
 .skills-wrapper {
     display: flex;
     gap: 130px;
-}
-
-.skills-wrapper ul {
-    display: flex;
     align-items: center;
 }
 
-.skills-wrapper >ul>li {
-justify-content: space-between;
+
+.skills-wrapper h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.skills-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.skills-wrapper > ul > li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.skills-wrapper ul > li:first-child {
+    margin-bottom: 65px;
+}
+
+.portfolio {
+    padding-top: 93px;
+    padding-bottom: 140px;
+}
+
+.portfolio > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+
+.portfolio h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 85px;
+}
+
+
+.portfolio h3 {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.portfolio p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.image-portfolio-wrapper {
+    display: flex;
+    width: 520px;
+    gap: 30px;
+}
+
+footer {
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 190px;
+}
+
+footer > div {
+    display: flex;
+}
+
+.footer-li-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+footer a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
 }
