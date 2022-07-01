@@ -134,7 +134,7 @@ h1 {
 .skills-wrapper {
     display: flex;
     gap: 130px;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 
@@ -154,13 +154,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    gap: 80px;
+    align-items: center;
 }
 
-.skills-wrapper ul > li:first-child {
-    margin-bottom: 65px;
-}
 
+.skills-items > li>p {
+    line-height: 2.6;
+}
 .progress-bar-ux {
     width: 450px;
     display: flex;
@@ -170,6 +170,7 @@ h1 {
     width: 84%;
     height: 25px;
     background-color: #C66C49;
+
 }
 
 .progress-bar-ux > .yellow-bar {
