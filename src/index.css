@@ -134,7 +134,7 @@ h1 {
 .skills-wrapper {
     display: flex;
     gap: 130px;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 
