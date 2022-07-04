@@ -52,6 +52,7 @@ header {
     justify-content: space-between;
     padding-top: 90px;
     padding-bottom: 90px;
+    align-items: center;
 }
 
 header > a {
@@ -124,17 +125,18 @@ h1 {
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
+    margin-bottom: 86px;
 }
 
 .skills-wrapper img {
-    margin-top: 100px;
     width: 350px;
+    align-items: flex-end;
 }
 
 .skills-wrapper {
     display: flex;
     gap: 130px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 
@@ -153,67 +155,68 @@ h1 {
 .skills-wrapper > ul > li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
+.skills-wrapper > ul>li:first-child {
+    margin-bottom: 65px;
+}
 
 .skills-items > li>p {
     line-height: 2.6;
 }
 .progress-bar-ux {
+    background-color: #F5D6AB;
     width: 450px;
     display: flex;
 }
 
 .progress-bar-ux > .red-bar {
+    position: relative;
     width: 84%;
     height: 25px;
     background-color: #C66C49;
-
 }
 
-.progress-bar-ux > .yellow-bar {
-    width: 16%;
-    height: 25px;
+
+.progress-bar-ui  {
     background-color: #F5D6AB;
-}
-.progress-bar-ui {
     width: 450px;
     display: flex;
 }
 
-.progress-bar-ui > .red-bar {
-    width: 77%;
+
+.progress-bar-ui  .red-bar {
+    position: relative;
+    width: 78%;
     height: 25px;
     background-color: #C66C49;
 }
 
-.progress-bar-ui > .yellow-bar {
-    width: 23%;
-    height: 25px;
-    background-color: #F5D6AB;
-}
-
 
 .progress-bar-fe {
+    background-color: #F5D6AB;
     width: 450px;
     display: flex;
 }
 
 .progress-bar-fe > .red-bar {
+    position: relative;
     width: 63%;
     height: 25px;
     background-color: #C66C49;
 }
 
 .progress-bar-fe > .yellow-bar {
+    position: relative;
     width: 37%;
     height: 25px;
     background-color: #F5D6AB;
 }
 
 .portfolio {
+    position: relative;
     padding-top: 93px;
     padding-bottom: 140px;
 }
@@ -277,14 +280,17 @@ gap: 20px;
 
 .chevron-wrapper {
     position: absolute;
-    bottom: 0;
-top:2780px;
+bottom: 140px;
 }
 
-.image-portfolio-wrapper {
-    display: flex;
-    width: 630px;
-    gap: 30px;
+
+
+.portfolio-image-wrapper-1 {
+    width: 350px
+}
+
+.portfolio-image-wrapper-2 {
+    width: 250px;
 }
 
 footer {
@@ -293,13 +299,15 @@ footer {
     padding-bottom: 190px;
 }
 
-footer > div {
-    display: flex;
-}
 
-.footer-li-wrapper {
+.footer-li-wrapper{
     display: flex;
     justify-content: space-between;
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 16px;
 }
 
 footer h2 {
