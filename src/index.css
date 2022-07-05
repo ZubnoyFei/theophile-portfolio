@@ -227,6 +227,7 @@ h1 {
 
 .portfolio-content-wrapper {
     display: flex;
+    gap: 125px;
 }
 
 .portfolio-text-wrapper {
@@ -257,14 +258,32 @@ margin-bottom: 50px;
 }
 
 
+.image-flex {
+    display: flex;
+    gap: 30px;
+}
 
-.portfolio-image-wrapper-1 img{
+.portfolio-image-wrapper-1 {
     width: 233px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.portfolio-image-wrapper-2 img{
+.portfolio-image-wrapper-2{
     width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+.portfolio-image-wrapper-1 {
+    width: 100%;
+}
+
+.portfolio-image-wrapper-2{
+    width: 100%;
+}
+
 footer {
     background-color: #FFFAF2;
     padding-top: 93px;
