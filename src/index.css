@@ -257,6 +257,12 @@ margin-bottom: 50px;
 .chevron-wrapper {
     position: relative;
     top: 200px;
+    display: flex;
+    gap: 30px;
+}
+
+.chevron-wrapper img:last-child {
+    transform: rotate(180deg);
 }
 
 .image-flex {
@@ -319,4 +325,5 @@ footer a {
     position: fixed;
     bottom: 60px;
     right: 60px;
+    transform: rotate(90deg);
 }
